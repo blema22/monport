@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 
 <head>
@@ -11,130 +10,233 @@
 
 <body>
 
-```
-<header class="portfolio-headers">
-    <h1>Coulibaly Mohamadou</h1>
-    <h3>Portfolio Développeur Web</h3>
-    <p class="tagline">
-        Développeur Web Junior | React • Node.js • Express • JavaScript ES6+
-    </p>
-</header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">CM</div>
 
-<main>
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <img id="alt" src="profil.jpg" alt="Photo de profil">
+    <!-- Header -->
+    <header class="portfolio-header">
 
-    <section class="about">
-        <h2>À propos de moi</h2>
+        <img src="profil.jpg" alt="Photo de Coulibaly Mohamadou" class="profile-image">
+
+        <h1>Coulibaly Mohamadou</h1>
+
+        <h2>Développeur Web Junior</h2>
+
+        <p class="tagline">
+            React • Node.js • Express • JavaScript ES6+ • PHP • MySQL • Supabase
+        </p>
+
+        <a href="#contact" class="btn">Me contacter</a>
+
+    </header>
+
+    <main>
+
+        <!-- À propos -->
+        <section id="about" class="about">
+
+            <h2>À propos de moi</h2>
+
+            <p>
+                Passionné par le développement web, je suis actuellement en
+                formation informatique au CNAM.
+
+                Je développe des applications web modernes avec React,
+                Node.js, Express, JavaScript et Supabase.
+
+                J'aime concevoir des interfaces intuitives, créer des
+                applications performantes et apprendre de nouvelles
+                technologies.
+            </p>
+
+        </section>
+
+        <!-- Compétences -->
+        <section id="skills" class="skills">
+
+            <h2>Compétences</h2>
+
+            <ul class="skills-list">
+
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript ES6+</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Supabase</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>C</li>
+                <li>Canva</li>
+                <li>Photoshop</li>
+                <li>Maintenance Informatique</li>
+
+            </ul>
+
+        </section>
+
+        <!-- Citation -->
+        <blockquote>
+            <p>"If you can dream it, you can do it."</p>
+            <cite>— Walt Disney</cite>
+        </blockquote>
+
+        <!-- Projets -->
+        <section id="projets">
+
+            <h2>Mes Projets</h2>
+
+            <div class="projets-grid">
+
+                <!-- Projet 1 -->
+                <article class="projet-card">
+
+                    <img src="perfec.jpg"
+                        alt="Application de gestion de gîtes"
+                        class="projet-image">
+
+                    <div class="projet-content">
+
+                        <h3>Application de gestion de gîtes</h3>
+
+                        <p>
+                            Développement d'une plateforme de gestion de gîtes
+                            et chambres d'hôtes avec calendrier de
+                            disponibilités, synchronisation iCal,
+                            gestion des réservations et espace
+                            d'administration.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>Supabase</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Projet 2 -->
+                <article class="projet-card">
+
+                    <img src="Alternance.jpg"
+                        alt="Portfolio personnel"
+                        class="projet-image">
+
+                    <div class="projet-content">
+
+                        <h3>Portfolio Personnel</h3>
+
+                        <p>
+                            Création d'un portfolio responsive présentant
+                            mes compétences, mes projets et mon parcours
+                            de développeur web.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Projet 3 -->
+                <article class="projet-card">
+
+                    <img src="lic.jpg"
+                        alt="Projets CNAM"
+                        class="projet-image">
+
+                    <div class="projet-content">
+
+                        <h3>Projets Académiques CNAM</h3>
+
+                        <p>
+                            Réalisation de plusieurs projets de programmation,
+                            développement web, bases de données et algorithmique
+                            durant ma formation.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>C</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+
+            <h2>Contact</h2>
+
+            <p>
+                Je suis actuellement à la recherche d'une alternance
+                en développement web.
+            </p>
+
+            <div class="contact-info">
+
+                <p>📧 Email :
+                    <a href="mailto:mohamadou@example.com">
+                        mohamadou@example.com
+                    </a>
+                </p>
+
+                <p>💻 GitHub :
+                    <a href="#">
+                        github.com/votre-profil
+                    </a>
+                </p>
+
+                <p>💼 LinkedIn :
+                    <a href="#">
+                        linkedin.com/in/votre-profil
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
 
         <p>
-            Passionné par le développement web, je suis actuellement en formation
-            informatique au CNAM. Je développe des applications web modernes
-            avec React, Node.js, Express et Supabase.
-            J'aime créer des solutions utiles, performantes et responsives.
+            © 2026 Coulibaly Mohamadou - Tous droits réservés.
         </p>
-    </section>
 
-    <section class="skills">
-        <h2>Compétences</h2>
+    </footer>
 
-        <ul class="skills-list">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript ES6+</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>Supabase</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>C</li>
-            <li>Canva</li>
-            <li>Photoshop</li>
-            <li>Maintenance Informatique</li>
-        </ul>
-    </section>
+</body>
 
-    <blockquote>
-        "If you can dream it, you can do it."
-    </blockquote>
-<section id="projets">
-
-    <h2>Mes Projets</h2>
-
-    <div class="projets-grid">
-
-        <!-- Projet 1 -->
-        <article class="projet-card">
-            <img src="perfec.jpg" alt="Application de gestion de gîtes" class="projet-image">
-
-            <div class="projet-content">
-                <h3>Application de gestion de gîtes</h3>
-
-                <p>
-                    Développement d'une plateforme de gestion de gîtes et chambres
-                    d'hôtes avec calendrier de disponibilités, synchronisation
-                    iCal, gestion des réservations et administration complète.
-                </p>
-
-                <div class="tech-stack">
-                    <span>React</span>
-                    <span>Node.js</span>
-                    <span>Express</span>
-                    <span>Supabase</span>
-                    <span>JavaScript ES6+</span>
-                </div>
-            </div>
-        </article>
-
-        <!-- Projet 2 -->
-        <article class="projet-card">
-            <img src="Alternance.jpg" alt="Portfolio Personnel" class="projet-image">
-
-            <div class="projet-content">
-                <h3>Portfolio Personnel</h3>
-
-                <p>
-                    Création d'un portfolio responsive présentant mes compétences,
-                    mon parcours et mes réalisations professionnelles.
-                </p>
-
-                <div class="tech-stack">
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
-                    <span>Git</span>
-                    <span>GitHub</span>
-                </div>
-            </div>
-        </article>
-
-        <!-- Projet 3 -->
-        <article class="projet-card">
-            <img src="lic.jpg" alt="Projets CNAM" class="projet-image">
-
-            <div class="projet-content">
-                <h3>Projets Académiques CNAM</h3>
-
-                <p>
-                    Réalisation de projets en programmation, développement web,
-                    bases de données et algorithmique dans le cadre de ma formation.
-                </p>
-
-                <div class="tech-stack">
-                    <span>C</span>
-                    <span>PHP</span>
-                    <span>MySQL</span>
-                    <span>JavaScript</span>
-                </div>
-            </div>
-        </article>
-
-    </div>
-
-</section>
-   
-
-      
+</html>

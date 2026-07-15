@@ -72,7 +72,7 @@ body{
 .profile-image{
     width:180px;
     height:180px;
-   object-position: center 5%;
+   object-position: center 7%;
     border-radius:50%;
     object-fit:cover;
     border:5px solid white;
